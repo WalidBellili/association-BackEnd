@@ -14,8 +14,8 @@
         "image": "./img/unicef.jpg"
     },
     {
-		"slug": "les-restaurants-du-cœur",
-        "name": "Les Restaurants du cœur",
+		"slug": "les-restaurants-du-coeur",
+        "name": "Les Restaurants du coeur",
         "slogan": "On compte sur vous !",
         "description": "Fondés par Coluche en 1985, les Restos du Cœur est une association loi de 1901, reconnue d’utilité publique, sous le nom officiel de « les Restaurants du Cœur – les Relais du Cœur ». Ils ont pour but « d’aider et d’apporter une assistance bénévole aux personnes démunies, notamment dans le domaine alimentaire par l’accès à des repas gratuits, et par la participation à leur insertion sociale et économique, ainsi qu’à toute action contre la pauvreté sous toutes ses formes ».",  
         "image": "./img/Logo-Restos-du-coeur2.jpg"
