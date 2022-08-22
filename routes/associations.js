@@ -18,13 +18,17 @@ app.post("/:slug", checkIfExists, (req, res) => {
   const message = {
     name: req.body.name,
     contenu: req.body.contenu,
-    date: moment(),
+    date: moment().format("L"),
     slug: req.body.name.toLowerCase().replace(/[^\w]/gi, "-"),
   };
 
-  messageJson.push(message);
+  //   messageJson.push(message);
+  messageJson.unshift(message);
   res.json(message);
 });
 // *********************************
+app.get("/messages", (req, res) => {
+  console.log(messageJson);
+});
 
 module.exports = app;
