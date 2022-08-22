@@ -3,7 +3,7 @@ const app = express();
 const port = 5000;
 const morgan = require("morgan");
 const cors = require("cors");
-const slugify = require("slugify");
+
 const associations = require("./associations.json");
 const associationsRoute = require("./routes/associations");
 

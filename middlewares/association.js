@@ -1,4 +1,5 @@
 const associations = require("../associations.json");
+// const slugify = require("slugify");
 
 const checkIfExists = (req, res, next) => {
   const { slug } = req.params;
