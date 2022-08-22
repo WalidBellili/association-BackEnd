@@ -1,0 +1,23 @@
+[
+    {
+		"slug": "konexio",
+        "name": "Konexio",
+        "slogan": "Autonomie et solidarité par l'apprentissage numérique",
+        "description": "Konexio propose des formations gratuites aux compétences informatiques et métiers de la tech pour ouvrir à tous les opportunités du numérique.",  
+        "image": "./img/s-CAW6MH_400x400.jpg"
+    },
+    {
+		"slug": "unicef",
+        "name": "Unicef",
+        "slogan": "Cet enfant a besoin de vos talents !",
+        "description": "UNICEF France agit dans le monde entier pour protéger et défende les droits des enfants.",
+        "image": "./img/unicef.jpg"
+    },
+    {
+		"slug": "les-restaurants-du-cœur",
+        "name": "Les Restaurants du cœur",
+        "slogan": "On compte sur vous !",
+        "description": "Fondés par Coluche en 1985, les Restos du Cœur est une association loi de 1901, reconnue d’utilité publique, sous le nom officiel de « les Restaurants du Cœur – les Relais du Cœur ». Ils ont pour but « d’aider et d’apporter une assistance bénévole aux personnes démunies, notamment dans le domaine alimentaire par l’accès à des repas gratuits, et par la participation à leur insertion sociale et économique, ainsi qu’à toute action contre la pauvreté sous toutes ses formes ».",  
+        "image": "./img/Logo-Restos-du-coeur2.jpg"
+    }
+]
