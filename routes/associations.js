@@ -8,13 +8,16 @@ const { checkIfExists } = require("../middlewares/association");
 app.get("/", (req, res) => {
   res.json(associations);
 });
-app.get("/:slug", checkIfExists, (req, res) => {
-  //   res.json(req.association);
+app.get("/messages", (req, res) => {
   res.json(messageJson);
+});
+app.get("/:slug", checkIfExists, (req, res) => {
+  res.json(req.association);
+  //   res.json(messageJson);
 });
 // ***********************************
 
-app.post("/:slug", checkIfExists, (req, res) => {
+app.post("/:slug/msg", checkIfExists, (req, res) => {
   const message = {
     name: req.body.name,
     contenu: req.body.contenu,
@@ -26,9 +29,10 @@ app.post("/:slug", checkIfExists, (req, res) => {
   messageJson.unshift(message);
   res.json(message);
 });
-// *********************************
-app.get("/messages", (req, res) => {
-  console.log(messageJson);
+
+app.get("/:slug/msg", (req, res) => {
+  res.json(messageJson);
 });
+// *********************************
 
 module.exports = app;
