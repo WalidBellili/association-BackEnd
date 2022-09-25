@@ -1,7 +1,7 @@
 const associations = require("../associations.json");
 
-const checkIfExists = (req, res, next) => {
-  const { slug } = req.params;
+const checkIfAssociationExists = (req, res, next) => {
+  const slug = req.body.association
 
   const association = associations.find((association) => {
     return association.slug === slug;
@@ -16,5 +16,5 @@ const checkIfExists = (req, res, next) => {
 };
 
 module.exports = {
-  checkIfExists,
+    checkIfAssociationExists,
 };
